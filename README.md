@@ -1,6 +1,6 @@
 # Burritito Website
 
-LINK: https://mauriciochavesdias.github.io/Burritito-website-KOI/menu.html
+LINK: https://julianacostas.github.io/VeronaPizzeria/
 
 ## Description
 
