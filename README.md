@@ -1,5 +1,3 @@
-![Begin Banner](Documentation/readme-begin-banner-mau.png)
-
 # Burritito Website
 
 LINK: https://mauriciochavesdias.github.io/Burritito-website-KOI/menu.html
@@ -31,4 +29,3 @@ Burritito website is a project using CSS and HTML developed by me and a group of
 - Human Computer Interaction
 - Custom font-family and Colour pallete.
 
-![End Banner](Documentation/readme-end-banner-mau.png)
