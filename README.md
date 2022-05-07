@@ -1,6 +1,6 @@
 # Burritito Website
 
-LINK: https://julianacostas.github.io/VeronaPizzeria/
+LINK: https://julianacostas.github.io/VeronaPizzeria/menu.html
 
 ## Description
 
