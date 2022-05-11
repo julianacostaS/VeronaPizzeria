@@ -103,6 +103,7 @@ a:active {
   height: 800px;
 }
 
+
 /* containers to show the menu */
 .flex-container-column {
   display: flex;
@@ -113,7 +114,6 @@ a:active {
   gap: 10px;
   /* column-gap: 100px; */
 }
-
 .flex-container-column1 {
   display: flex;
   flex-direction: column;
@@ -123,6 +123,7 @@ a:active {
   justify-content: space-between;
   gap: 10px;
 }
+
 .flex-container-column2 {
   display: flex;
   flex-direction: column;
@@ -150,6 +151,17 @@ a:active {
   width: 700px;
   height: 100px;
   gap: 50px;
+}
+.flex-container-column5 {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  width: 700px;
+  height: 100px;
+  justify-content: space-between;
+  gap: 10px;
+  padding-left: 400px;
+
 }
 
 .flex-container-row {
@@ -331,6 +343,30 @@ a:active {
 .topnav a.active {
   background-color: #f1a541db;
   color: white;
+}
+.button {
+  background-color: #f1a641; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: "Hitchcut";
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
 }
 
 @font-face {
