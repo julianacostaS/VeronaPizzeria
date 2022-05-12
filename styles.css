@@ -203,7 +203,7 @@ a:active {
   font-size: 80px;
   font-family: "Hitchcut";
   text-align: center;
-  color: #f1a641;
+  color: #F4B324;
   margin-top: 5%;
 }
 
@@ -213,7 +213,7 @@ a:active {
   position: center;
   font-family: "Hitchcut";
   text-align: center;
-  color: #f1a641;
+  color: #F6E7D8;
   font-size: 21px;
 }
 
@@ -223,7 +223,7 @@ a:active {
   font-size: 25px;
   font-family: "Aleo";
   text-align: center;
-  color: #8dc740;
+  color: #F6E7D8;
   word-wrap: none;
 }
 
@@ -233,7 +233,7 @@ a:active {
   font-size: 25px;
   font-family: "Aleo";
   text-align: center;
-  color: #8dc740;
+  color: #F6E7D8;
   word-wrap: none;
 }
 
@@ -243,7 +243,7 @@ a:active {
   font-size: 60px;
   font-family: "Hitchcut";
   text-align: center;
-  color: #f1a641;
+  color: #F4B324;
 }
 
 .description {
@@ -252,7 +252,7 @@ a:active {
   font-size: 30px;
   font-family: "Aleo";
   text-align: center;
-  color: #8dc740;
+  color: #F6E7D8;
   word-wrap: none;
 }
 
@@ -261,7 +261,7 @@ a:active {
   font-size: 30px;
   font-family: "Aleo";
   text-align: center;
-  color: #f1a641;
+  color: #F4B324;
   margin-top: 2%;
 }
 
@@ -299,7 +299,7 @@ a:active {
   font-size: 25px;
   font-family: "Aleo";
   text-align: center;
-  color: #8dc740;
+  color: #F6E7D8;
   margin-top: 1%;
   width: 300px;
   word-wrap: break-word;
@@ -316,7 +316,7 @@ a:active {
   font-size: 30px;
   font-family: "Aleo";
   text-align: justify;
-  color: #8dc740;
+  color: #F6E7D8;
   word-wrap: break-word;
   /* width: 1000px;
   margin-left: 10%; */
@@ -324,7 +324,6 @@ a:active {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #8dc740;
   overflow: hidden;
   margin-right: 10%;
   border-radius: 50px 50px;
@@ -335,7 +334,7 @@ a:active {
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: white;
+  color: #F6E7D8;
   font-family: "Hitchcut";
   text-align: center;
   text-decoration: none;
@@ -347,19 +346,19 @@ a:active {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #f1a641;
-  color: white;
+  background-color: #F6E7D8;
+  color: #737373;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #f1a541db;
+  background-color: #F14902;
   color: white;
 }
 .button {
-  background-color: #8dc740; /* Green */
+  background-color: #F14902; /* Green */
   border: none;
-  color: white;
+  color: #F6E7D8;
   padding: 20px;
   text-align: center;
   text-decoration: none;
@@ -375,14 +374,14 @@ a:active {
 footer {
   text-align: center;
   padding: 3px;
-  background-color: #8dc740;
-  color: white;
+  background-color: #F6E7D8;
+  color: #737373;
 }
 footer p{
   text-align: center;
   padding: 3px;
-  background-color: #8dc740;
-  color: white;
+  background-color: #F6E7D8;
+  color: #737373;
     font-size: 16px;
     font-family: "Hitchcut";
 
