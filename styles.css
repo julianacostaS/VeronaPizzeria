@@ -93,7 +93,7 @@ a:active {
 .bigImageSize {
   display: block;
   margin-left: auto;
-  margin-right: auto;
+  margin-right:4em;
   width: 600px;
   margin-top: 5%;
   margin-bottom: -4%;
@@ -476,3 +476,6 @@ footer p{
   padding: 1.5em;
 }
 
+#about-content{
+  text-align: center;
+}
