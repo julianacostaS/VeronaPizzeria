@@ -1,10 +1,10 @@
-# Burritito Website
+# Verona Pizzaria Website
 
 LINK: https://julianacostas.github.io/VeronaPizzeria/menu.html
 
 ## Description
 
-Burritito website is a project using CSS and HTML developed by me and a group of classmates as part of a group assignment for ICT203 Human Computer Interaction from King's Own Institute located in Sydney, Australia.
+Verona Pizzaria website is a project using CSS and HTML developed by me and a group of classmates as part of a group assignment for ICT203 Human Computer Interaction from King's Own Institute located in Sydney, Australia.
 
 ## Screenshot
 

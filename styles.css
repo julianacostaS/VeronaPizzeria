@@ -14,8 +14,7 @@
   background-size: 100%;
 }
 .features-bg {
-  background: url("images/background_yellow.png");
-  background-size: 100%;
+  background: url("images/background_yellow.png") repeat;
 }
 .description-bg {
   background: url("images/background_brown.png");
@@ -233,7 +232,7 @@ a:active {
   margin: auto;
   font-size: 25px;
   font-family: "Aleo";
-  text-align: justify;
+  text-align: center;
   color: #8dc740;
   word-wrap: none;
 }
@@ -241,7 +240,7 @@ a:active {
 .title {
   display: block;
   margin: auto;
-  font-size: 80px;
+  font-size: 60px;
   font-family: "Hitchcut";
   text-align: center;
   color: #f1a641;
@@ -391,10 +390,10 @@ footer p{
 
 @font-face {
   font-family: "Hitchcut";
-  src: url(Fonts/Hitchcut/Hitchcut-Regular.ttf);
+  src: url(Fonts/Poppins-Regular.ttf);
 }
 
 @font-face {
   font-family: "Aleo";
-  src: url(Fonts/Aleo/Aleo-Regular.ttf);
+  src: url(Fonts/JosefinSans-Regular.ttf);
 }
