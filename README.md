@@ -1,6 +1,6 @@
 # Verona Pizzeria Website
 
-LINK: https://julianacostas.github.io/VeronaPizzeria/menu.html
+LINK: https://julianacostas.github.io/VeronaPizzeria/index.html
 
 ## Description
 
