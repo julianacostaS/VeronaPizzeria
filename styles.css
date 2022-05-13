@@ -625,7 +625,6 @@ input[type="reset"]:hover {
     margin-left: 35.5em;
 }
 
-<<<<<<< HEAD
 .cart{
   margin-left: 2em;
   border-radius: 50px 50px;
@@ -635,12 +634,3 @@ input[type="reset"]:hover {
   cursor: pointer;
 }
 
-=======
-.cart {
-    margin-left: 2em;
-    border-radius: 50px 50px;
-    background-color: #f6e7d8;
-    display: fle;
-    justify-content: center;
-}
->>>>>>> 7fde13347081296469e3958bb69554368bf8d3b3
