@@ -580,3 +580,12 @@ input[type=submit]:hover {
 #submit_button{
   margin-left: 41.5em;
 }
+
+.cart{
+  margin-left: 2em;
+  border-radius: 50px 50px;
+  background-color: #F6E7D8;
+  display: fle;
+  justify-content: center;
+
+}
