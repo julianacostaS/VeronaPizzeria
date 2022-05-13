@@ -1,18 +1,14 @@
 ﻿<!DOCTYPE html>
 <html class="contact-bg">
 <meta charset="utf-8" />
-<title>Verona Pizzaria - Contact</title>
+<title>Verona Pizzeria - Contact</title>
 <link rel="stylesheet" href="styles.css" />
 
 
 <script>
-    function validateForm() {
-        var x = document.forms["myForm"]["fname"].value;
-        if (x == "" || x == null) {
-            alert("Name must be filled out");
-            return false;
-        }
-    }
+function myFunction() {
+  alert("Thanks for your message! Our team will get back to you shortly.");
+}
 </script>
 
 <head>
@@ -43,7 +39,7 @@
             <p class="descTopic">000 George St. Sydney, NSW, Australia 2000<br /><br /></p>
 
             <h3 class="topic">EMAIL ADDRESS</h3>
-            <p class="descTopic">contact@veronapizzaria.com.au<br /><br /></p>
+            <p class="descTopic">contact@veronaPizzeria.com.au<br /><br /></p>
 
             <h3 class="topic">PHONE NUMBER</h3>
             <p class="descTopic">(123) 456 7890</p>
@@ -64,7 +60,7 @@
     </br>
     <p class="title">Send us a message!</p>
     <div id="container_form">
-        <form action="" >
+        <form action="" onsubmit="myFunction()" >
 
             <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
 

@@ -89,9 +89,16 @@ a:active {
     margin-right: auto;
     width: 300px;
     margin-top: 10%;
+
     /* width: 50%; */
 }
-
+.index_smallImageSize{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  margin-top: 5%;
+}
 
 /* image size used for the food pictures */
 
@@ -416,6 +423,24 @@ a:active {
     border-radius: 12px;
     font-family: "Hitchcut";
     width: 100px;
+}
+
+.button-disabled{
+  background-color: #737373;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-family: "Hitchcut";
+  width: 100px;
+  pointer-events: none;
 }
 
 footer {
