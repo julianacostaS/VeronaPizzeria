@@ -89,16 +89,17 @@ a:active {
     margin-right: auto;
     width: 300px;
     margin-top: 10%;
-
     /* width: 50%; */
 }
-.index_smallImageSize{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
-  margin-top: 5%;
+
+.index_smallImageSize {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 5%;
 }
+
 
 /* image size used for the food pictures */
 
@@ -117,7 +118,7 @@ a:active {
 .bigImageSize {
     display: block;
     margin-left: auto;
-    margin-right: 4em;
+    margin-right: 26em;
     width: 600px;
     margin-top: 5%;
     margin-bottom: -4%;
@@ -190,7 +191,7 @@ a:active {
 
 .form-example {
     color: orange;
-    font-family: "Hitchcut"
+    font-family: "Hitchcut";
 }
 
 .flex-container-column5 {
@@ -239,7 +240,7 @@ a:active {
     font-size: 80px;
     font-family: "Hitchcut";
     text-align: center;
-    color: #F4B324;
+    color: #f4b324;
     margin-top: 5%;
 }
 
@@ -249,7 +250,7 @@ a:active {
     position: center;
     font-family: "Hitchcut";
     text-align: center;
-    color: #F4B324;
+    color: #f4b324;
     font-size: 21px;
 }
 
@@ -259,7 +260,7 @@ a:active {
     font-size: 25px;
     font-family: "Aleo";
     text-align: center;
-    color: #F6E7D8;
+    color: #f6e7d8;
     word-wrap: none;
 }
 
@@ -269,7 +270,7 @@ a:active {
     font-size: 25px;
     font-family: "Aleo";
     text-align: center;
-    color: #F6E7D8;
+    color: #f6e7d8;
     word-wrap: none;
 }
 
@@ -279,7 +280,7 @@ a:active {
     font-size: 60px;
     font-family: "Hitchcut";
     text-align: center;
-    color: #F4B324;
+    color: #f4b324;
 }
 
 .description {
@@ -288,7 +289,7 @@ a:active {
     font-size: 30px;
     font-family: "Aleo";
     text-align: center;
-    color: #F6E7D8;
+    color: #f6e7d8;
     word-wrap: none;
 }
 
@@ -297,7 +298,7 @@ a:active {
     font-size: 30px;
     font-family: "Aleo";
     text-align: center;
-    color: #F4B324;
+    color: #f4b324;
     margin-top: 2%;
 }
 
@@ -306,7 +307,7 @@ a:active {
     font-size: 30px;
     font-family: "Aleo";
     text-align: center;
-    color: #F14902;
+    color: #f14902;
     margin-top: 2%;
 }
 
@@ -344,7 +345,7 @@ a:active {
     font-size: 25px;
     font-family: "Aleo";
     text-align: center;
-    color: #F6E7D8;
+    color: #f6e7d8;
     margin-top: 1%;
     width: 300px;
     word-wrap: break-word;
@@ -361,10 +362,25 @@ a:active {
     font-size: 30px;
     font-family: "Aleo";
     text-align: justify;
-    color: #F6E7D8;
+    color: #f6e7d8;
     word-wrap: break-word;
     /* width: 1000px;
   margin-left: 10%; */
+}
+
+.pizza-Price {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin-top: 15%;
+    margin-bottom: -4%;
+    /* width: 50%; */
+    font-size: 20px;
+    font-family: "Aleo";
+    text-align: justify;
+    color: #f4b324;
+    word-wrap: break-word;
 }
 
 
@@ -384,7 +400,7 @@ a:active {
 
 .topnav a {
     float: left;
-    color: #F6E7D8;
+    color: #f6e7d8;
     font-family: "Hitchcut";
     text-align: center;
     text-decoration: none;
@@ -397,7 +413,7 @@ a:active {
 /* Change the color of links on hover */
 
 .topnav a:hover {
-    background-color: #F6E7D8;
+    background-color: #f6e7d8;
     color: #737373;
 }
 
@@ -405,15 +421,15 @@ a:active {
 /* Add a color to the active/current link */
 
 .topnav a.active {
-    background-color: #F14902;
+    background-color: #f14902;
     color: white;
 }
 
 .button {
-    background-color: #F14902;
+    background-color: #f14902;
     /* Green */
     border: none;
-    color: #F6E7D8;
+    color: #f6e7d8;
     padding: 20px;
     text-align: center;
     text-decoration: none;
@@ -426,35 +442,35 @@ a:active {
     width: 100px;
 }
 
-.button-disabled{
-  background-color: #737373;
-  /* Green */
-  border: none;
-  color: white;
-  padding: 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 12px;
-  font-family: "Hitchcut";
-  width: 100px;
-  pointer-events: none;
+.button-disabled {
+    background-color: #737373;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: "Hitchcut";
+    width: 100px;
+    pointer-events: none;
 }
 
 footer {
     text-align: center;
     padding: 3px;
-    background-color: #F6E7D8;
+    background-color: #f6e7d8;
     color: #737373;
 }
 
 footer p {
     text-align: center;
     padding: 3px;
-    background-color: #F6E7D8;
+    background-color: #f6e7d8;
     color: #737373;
     font-size: 16px;
     font-family: "Hitchcut";
@@ -475,7 +491,7 @@ footer p {
     transition: 0.3s;
     width: 70%;
     border-radius: 5px;
-    background-color: #F6E7D8;
+    background-color: #f6e7d8;
     color: #737373;
     text-align: center;
     margin-bottom: 2em;
@@ -516,7 +532,7 @@ footer p {
     font-size: 30px;
     font-family: "Aleo";
     text-align: center;
-    color: #F14902;
+    color: #f14902;
 }
 
 .subtitle3 {
@@ -525,7 +541,7 @@ footer p {
     font-size: 80px;
     font-family: "Hitchcut";
     text-align: center;
-    color: #F6E7D8;
+    color: #f6e7d8;
     margin-top: 5%;
 }
 
@@ -543,48 +559,73 @@ footer p {
 #about-content {
     text-align: center;
 }
+
+
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], input[type=email], select, textarea {
-  width: 60%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-  font-family: "Hitchcut";
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 60%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical;
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-family: "Hitchcut";
 }
+
+
 /* Style the submit button with a specific background color etc */
-input[type=submit], input[type=reset] {
-  background-color: #F14902;
-  color: #F6E7D8;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #f14902;
+    color: #f6e7d8;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
+
 
 /* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #F6E7D8;
-  color: #737373;
-}
-input[type=reset]:hover {
-    background-color: #F6E7D8;
+
+input[type="submit"]:hover {
+    background-color: #f6e7d8;
     color: #737373;
-  }
+}
+
+input[type="reset"]:hover {
+    background-color: #f6e7d8;
+    color: #737373;
+}
+
+
 /* Add a background color and some padding around the form */
+
 #container_form {
-  border-radius: 5px;
-  padding: 20px;
-  margin-left: 28%;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 28%;
 }
 
-#submit_button{
-  margin-left: 35.5em;
+#submit_button {
+    margin-left: 35.5em;
 }
 
+<<<<<<< HEAD
 .cart{
   margin-left: 2em;
   border-radius: 50px 50px;
@@ -594,3 +635,12 @@ input[type=reset]:hover {
   cursor: pointer;
 }
 
+=======
+.cart {
+    margin-left: 2em;
+    border-radius: 50px 50px;
+    background-color: #f6e7d8;
+    display: fle;
+    justify-content: center;
+}
+>>>>>>> 7fde13347081296469e3958bb69554368bf8d3b3
