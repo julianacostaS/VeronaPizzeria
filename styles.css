@@ -282,7 +282,14 @@ a:active {
     text-align: center;
     color: #f4b324;
 }
-
+.title-brown {
+    display: block;
+    margin: auto;
+    font-size: 60px;
+    font-family: "Hitchcut";
+    text-align: center;
+    color: #3d2a2c;
+}
 .description {
     display: block;
     margin: auto;
@@ -634,3 +641,19 @@ input[type="reset"]:hover {
   cursor: pointer;
 }
 
+.longDesc-brown {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin-top: 5%;
+    margin-bottom: -4%;
+    /* width: 50%; */
+    font-size: 30px;
+    font-family: "Aleo";
+    text-align: justify;
+    color: #3d2a2c;
+    word-wrap: break-word;
+    /* width: 1000px;
+  margin-left: 10%; */
+}
