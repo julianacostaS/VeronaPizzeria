@@ -720,3 +720,7 @@ span.price {
         margin-bottom: 20px;
     }
 }
+
+.cart:hover{
+    background-color: #ffd9b3;
+}

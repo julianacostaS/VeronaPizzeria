@@ -640,6 +640,9 @@ input[type="reset"]:hover {
   justify-content: center;
   cursor: pointer;
 }
+.cart:hover{
+    background-color: #ffd9b3;
+}
 
 .longDesc-brown {
     display: block;

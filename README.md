@@ -1,10 +1,10 @@
 # Verona Pizzeria Website
 
-LINK: https://julianacostas.github.io/VeronaPizzeria/index.html
+LINK: https://julianacostas.github.io/VeronaPizzeria/menu.html
 
 ## Description
 
-Verona Pizzeria website is a project using CSS and HTML developed by me and a group of classmates as part of a group assignment for ICT203 Human Computer Interaction from King's Own Institute located in Sydney, Australia .
+Verona Pizzeria website is a project using CSS and HTML developed by me and a group of classmates as part of a group assignment for ICT203 Human Computer Interaction from King's Own Institute located in Sydney, Australia.
 
 ## Screenshot
 
@@ -21,6 +21,9 @@ Verona Pizzeria website is a project using CSS and HTML developed by me and a gr
 |   <img src= Documentation/Contact.png>   |
 |              About Us Page               |
 |    <img src= Documentation/About.png>    |
+|               Checkout Page              |
+|   <img src= Documentation/Checkout.png>  |
+
 
 ## What I learned building this app
 
