@@ -555,7 +555,7 @@ input[type=text], input[type=email], select, textarea {
   font-family: "Hitchcut";
 }
 /* Style the submit button with a specific background color etc */
-input[type=submit] {
+input[type=submit], input[type=reset] {
   background-color: #F14902;
   color: #F6E7D8;
   padding: 12px 20px;
@@ -569,7 +569,10 @@ input[type=submit]:hover {
   background-color: #F6E7D8;
   color: #737373;
 }
-
+input[type=reset]:hover {
+    background-color: #F6E7D8;
+    color: #737373;
+  }
 /* Add a background color and some padding around the form */
 #container_form {
   border-radius: 5px;
@@ -578,7 +581,7 @@ input[type=submit]:hover {
 }
 
 #submit_button{
-  margin-left: 41.5em;
+  margin-left: 35.5em;
 }
 
 .cart{
