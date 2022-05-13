@@ -589,7 +589,8 @@ input[type=reset]:hover {
   margin-left: 2em;
   border-radius: 50px 50px;
   background-color: #F6E7D8;
-  display: fle;
+  display: flex;
   justify-content: center;
-
+  cursor: pointer;
 }
+

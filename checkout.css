@@ -1,0 +1,722 @@
+/* sets base style for each page */
+
+
+/* set background image per page */
+
+.index-bg {
+    background: url("images/background_brown.png");
+    background-size: 100%;
+}
+
+.about-bg {
+    background: url("images/background_brown.png");
+    background-size: 100%;
+}
+
+.contact-bg {
+    background: url("images/background_brown.png");
+    background-size: 100%;
+}
+
+.features-bg {
+    background: url("images/background_yellow.png") repeat;
+}
+
+.description-bg {
+    background: url("images/background_brown.png");
+    background-size: 100%;
+}
+
+.menu-bg {
+    background: url("images/background_brown.png");
+    background-size: 100%;
+}
+
+.items-bg {
+    background: url("images/bg_1.jpg");
+    background-size: 100%;
+}
+
+body {}
+
+.logo-image {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.imgLogo {
+    width: 300px;
+    margin-top: 10%;
+    /* float: center;
+  padding: 0%; */
+}
+
+p {
+    float: center;
+    padding: 0%;
+}
+
+
+/* remove the underline colour from links */
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+
+/* image size used for the logo */
+
+.smallImageSize {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 10%;
+
+    /* width: 50%; */
+}
+
+.index_smallImageSize {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    margin-top: 5%;
+}
+
+/* image size used for the food pictures */
+
+.mediumImageSize {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    margin-top: 10%;
+    /* width: 50%; */
+}
+
+
+/* image size used for the food pictures */
+
+.bigImageSize {
+    display: block;
+    margin-left: auto;
+    margin-right: 4em;
+    width: 600px;
+    margin-top: 5%;
+    margin-bottom: -4%;
+    /* width: 50%; */
+}
+
+.bigImageSize-2 {
+    display: block;
+    position: absolute;
+    right: 0%;
+    margin-left: auto;
+    margin-right: -20%;
+    width: 900px;
+    margin-top: -4.9%;
+    float: right;
+    height: 800px;
+}
+
+
+/* containers to show the menu */
+
+.flex-container-column {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 200;
+    height: 100;
+    gap: 10px;
+    /* column-gap: 100px; */
+}
+
+.flex-container-column1 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 600px;
+    height: 550px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.flex-container-column2 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 200px;
+    height: 100px;
+    gap: 10px;
+    column-gap: 100px;
+}
+
+.flex-container-column3 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 200px;
+    height: 100px;
+    gap: 100px;
+    column-gap: 100px;
+}
+
+.flex-container-column4 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 700px;
+    height: 100px;
+    gap: 50px;
+}
+
+.form-example {
+    color: orange;
+    font-family: "Hitchcut"
+}
+
+.flex-container-column5 {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    width: 700px;
+    height: 100px;
+    justify-content: space-between;
+    gap: 10px;
+    padding-left: 320px;
+}
+
+.flex-container-row {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-container-row-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flex-container-row-2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 20%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subtitle {
+    display: block;
+    margin: auto;
+    font-size: 80px;
+    font-family: "Hitchcut";
+    text-align: center;
+    color: #F4B324;
+    margin-top: 5%;
+}
+
+.topic {
+    display: block;
+    margin: auto;
+    position: center;
+    font-family: "Hitchcut";
+    text-align: center;
+    color: #F4B324;
+    font-size: 21px;
+}
+
+.descTopic {
+    display: block;
+    margin: auto;
+    font-size: 25px;
+    font-family: "Aleo";
+    text-align: center;
+    color: #F6E7D8;
+    word-wrap: none;
+}
+
+.descTopic2 {
+    display: block;
+    margin: auto;
+    font-size: 25px;
+    font-family: "Aleo";
+    text-align: center;
+    color: #F6E7D8;
+    word-wrap: none;
+}
+
+.title {
+    display: block;
+    margin: auto;
+    font-size: 60px;
+    font-family: "Hitchcut";
+    text-align: center;
+    color: #F4B324;
+}
+
+.description {
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    font-family: "Aleo";
+    text-align: center;
+    color: #F6E7D8;
+    word-wrap: none;
+}
+
+.smallTitle {
+    margin: auto;
+    font-size: 30px;
+    font-family: "Aleo";
+    text-align: center;
+    color: #F4B324;
+    margin-top: 2%;
+}
+
+.smallTitle1 {
+    margin: auto;
+    font-size: 30px;
+    font-family: "Aleo";
+    text-align: center;
+    color: #F14902;
+    margin-top: 2%;
+}
+
+.smallTitle-brown {
+    margin: auto;
+    font-size: 30px;
+    font-family: "Aleo";
+    text-align: center;
+    color: #3d2a2c;
+    margin-top: 2%;
+    font-weight: bold;
+}
+
+.subtitle-brown {
+    display: block;
+    margin: auto;
+    font-size: 80px;
+    font-family: "Hitchcut";
+    text-align: center;
+    color: #3d2a2c;
+    margin-top: 5%;
+}
+
+.smallDesc-brown {
+    font-size: 25px;
+    font-family: "Aleo";
+    text-align: center;
+    color: #3d2a2c;
+    margin-top: 1%;
+    width: 300px;
+    word-wrap: break-word;
+}
+
+.smallDesc {
+    font-size: 25px;
+    font-family: "Aleo";
+    text-align: center;
+    color: #F6E7D8;
+    margin-top: 1%;
+    width: 300px;
+    word-wrap: break-word;
+}
+
+.longDesc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    margin-top: 5%;
+    margin-bottom: -4%;
+    /* width: 50%; */
+    font-size: 30px;
+    font-family: "Aleo";
+    text-align: justify;
+    color: #F6E7D8;
+    word-wrap: break-word;
+    /* width: 1000px;
+  margin-left: 10%; */
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    overflow: hidden;
+    margin-right: 10%;
+    border-radius: 50px 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 19em;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    color: #F6E7D8;
+    font-family: "Hitchcut";
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    flex-grow: 4;
+    padding: 20px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #F6E7D8;
+    color: #737373;
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: #F14902;
+    color: white;
+}
+
+.button {
+    background-color: #F14902;
+    /* Green */
+    border: none;
+    color: #F6E7D8;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: "Hitchcut";
+    width: 100px;
+}
+
+.button-disabled {
+    background-color: #737373;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    font-family: "Hitchcut";
+    width: 100px;
+    pointer-events: none;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #F6E7D8;
+    color: #737373;
+}
+
+footer p {
+    text-align: center;
+    padding: 3px;
+    background-color: #F6E7D8;
+    color: #737373;
+    font-size: 16px;
+    font-family: "Hitchcut";
+}
+
+@font-face {
+    font-family: "Hitchcut";
+    src: url(Fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Aleo";
+    src: url(Fonts/JosefinSans-Regular.ttf);
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 70%;
+    border-radius: 5px;
+    background-color: #F6E7D8;
+    color: #737373;
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 2px 16px;
+    margin-left: 5%;
+}
+
+.imgCard {
+    border-radius: 5px 5px 0 0;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.titleCard {
+    font-size: 30px;
+    font-family: "Aleo";
+    text-align: center;
+    color: #F14902;
+}
+
+.subtitle3 {
+    display: block;
+    margin: auto;
+    font-size: 80px;
+    font-family: "Hitchcut";
+    text-align: center;
+    color: #F6E7D8;
+    margin-top: 5%;
+}
+
+.column2 {
+    float: center;
+    width: 50%;
+    margin-left: 34em;
+}
+
+.column2 a {
+    margin: 2em;
+    padding: 1.5em;
+}
+
+#about-content {
+    text-align: center;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 60%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    border: 1px solid #ccc;
+    /* Gray border */
+    border-radius: 4px;
+    /* Rounded borders */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical;
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-family: "Hitchcut";
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit],
+input[type=reset] {
+    background-color: #F14902;
+    color: #F6E7D8;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #F6E7D8;
+    color: #737373;
+}
+
+input[type=reset]:hover {
+    background-color: #F6E7D8;
+    color: #737373;
+}
+
+/* Add a background color and some padding around the form */
+#container_form {
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 28%;
+}
+
+#submit_button {
+    margin-left: 35.5em;
+}
+
+.cart {
+    margin-left: 2em;
+    border-radius: 50px 50px;
+    background-color: #F6E7D8;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial;
+    font-size: 17px;
+    padding: 8px;
+    margin: 0px;
+    font-family: "Hitchcut"
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: -ms-flexbox;
+    /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap;
+    /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.col-25 {
+    -ms-flex: 25%;
+    /* IE10 */
+    flex: 25%;
+}
+
+.col-50 {
+    -ms-flex: 50%;
+    /* IE10 */
+    flex: 50%;
+}
+
+.col-75 {
+    -ms-flex: 75%;
+    /* IE10 */
+    flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+    padding: 0 16px;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+a {
+    color: #2196F3;
+}
+
+hr {
+    border: 1px solid lightgrey;
+}
+
+span.price {
+    float: right;
+    color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+
+    .col-25 {
+        margin-bottom: 20px;
+    }
+}
