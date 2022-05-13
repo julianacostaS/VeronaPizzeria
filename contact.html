@@ -5,6 +5,16 @@
 <link rel="stylesheet" href="styles.css" />
 
 
+<script>
+    function validateForm() {
+        var x = document.forms["myForm"]["fname"].value;
+        if (x == "" || x == null) {
+            alert("Name must be filled out");
+            return false;
+        }
+    }
+</script>
+
 <head>
     <div class="flex-container-row-2">
         <div class="flex-container-column">
@@ -40,38 +50,39 @@
             <br>
             <br>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.7562446419065!2d151.20477061561542!3d-33.87017232656222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae3f216d52b7%3A0xaa4742657bf6460b!2sGeorge%20St%2C%20Sydney%20NSW!5e0!3m2!1sen!2sau!4v1652354877816!5m2!1sen!2sau"
-                width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.7562446419065!2d151.20477061561542!3d-33.87017232656222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ae3f216d52b7%3A0xaa4742657bf6460b!2sGeorge%20St%2C%20Sydney%20NSW!5e0!3m2!1sen!2sau!4v1652354877816!5m2!1sen!2sau"
+            width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-        </div>
+    </div>
 
 
     </div>
 
     </div>
-</br>
-<p class="title">Send us a message!</p>
+    </br>
+    <p class="title">Send us a message!</p>
     <div id="container_form">
-        <form action="action_page.php">
-      
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      
-          <select id="country" name="country">
-            <option value="australia">Australia</option>
-            <option value="canada">Canada</option>
-            <option value="usa">USA</option>
-          </select>
-      
-          <label for="subject">Subject</label>
-          <textarea id="subject" name="subject" placeholder="Message.." style="height:200px"></textarea>
-        </br>
-          <input type="submit" value="Submit" id="submit_button">
-      
-        </form>
-      </div>
+        <form action="" >
 
+            <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+            <input type="email" id="fname" name="email" placeholder="Email" required>
+
+            <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+            <textarea id="subject" name="subject" placeholder="Message.." style="height:200px"></textarea>
+            </br>
+            <input type="submit" value="Submit" id="submit_button" >
+
+        </form>
+    </div>
 
 
 
@@ -102,5 +113,6 @@
 <footer>
     <p>Copyright 2022 All rights reserved. Powered by Juliana & Diogo</p>
 </footer>
+
 
 </html>
